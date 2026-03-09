@@ -8,12 +8,11 @@ import prophet
 
 dir(prophet)
 
-# Commented out IPython magic to ensure Python compatibility.
+
 import os, sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-# %matplotlib inline
 import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
