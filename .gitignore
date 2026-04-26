@@ -1,0 +1,62 @@
+# =========================
+# PYTHON CACHE FILES
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# ENVIRONMENT FILES
+# =========================
+.env
+.venv/
+venv/
+ENV/
+
+# =========================
+# JUPYTER NOTEBOOK CHECKPOINTS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# DATA FILES (optional - keep dataset local only)
+# =========================
+*.csv
+*.xlsx
+*.json
+
+# If you WANT to keep dataset in GitHub, remove above line for csv
+
+# =========================
+# MODEL FILES / LARGE FILES
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.pkl.gz
+
+# =========================
+# OUTPUT / LOG FILES
+# =========================
+*.log
+outputs/
+results/
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# PYTHON INSTALL CACHE
+# =========================
+pip-wheel-metadata/
+dist/
+build/
